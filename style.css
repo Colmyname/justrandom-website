@@ -1,0 +1,664 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navcon {
+    background-color: rgb(201, 230, 192, 0.96);
+    color: rgb(126, 81, 24);
+    width: 840px;
+    padding: 30px 0;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.3);
+    position: sticky;
+    margin: 0 auto;
+    top: 0;
+    z-index: 999;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1 {
+    font-size: 26px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav a {
+    color: rgb(126, 81, 24);
+}
+nav a:hover {
+    color: #6bbc92;
+}
+.header-text-box {
+    width: 340px;
+}
+.header-text-box h1 {
+    font-size: 34px;
+}
+.header-text-box p {
+    padding: 25px 0;
+    line-height: 22px;
+}
+header img {
+    width: 360px;
+    border-radius: .5rem;
+}
+header {
+    width: 840px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+.btn {
+    border-radius: 999px;
+    background-color: rgb(160, 99, 20);
+}
+.btn:hover {
+    background-color: rgb(170, 124, 64);
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: .5rem 1.5rem;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.ft {
+    width: 240px;
+    padding: 50px 30px;
+    padding-bottom: 80px;
+}
+.icon {
+    font-size: 1.3rem;
+    color: #368059;
+}
+.features-title {
+    padding: 20px 0;
+    font-size: 17px;
+}
+.features-text {
+    line-height: 23px;
+}
+section h2 {
+    font-size: 28px;
+}
+.container {
+    margin: 0 auto;
+    width: 840px;
+}
+.testimonial-section {
+    padding: 22px 0;
+    background-color: #368059;
+    border-radius: .5rem;
+    color: white;
+}
+.testimonial-section img {
+    width: 245px;
+    border-radius: .5rem;
+}
+.grid-3-cols {
+    display: flex;
+    justify-content: space-evenly;
+}
+.testimonial-box {
+    flex-direction: column;
+    width: 480px;
+    padding-left: 40px;
+}
+.testimonial-box h2 {
+    font-size: 20.5px;
+    padding: .5rem 0;
+}
+.testimonial-text {
+    padding: 25px 0;
+    line-height: 24px;
+    font-style: italic;
+}
+.testimonial-author {
+    font-size: 14px;
+}
+.fh2 {
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+h3 {
+    padding-bottom: 15px;
+}
+.chair img {
+    width: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.chair {
+    width: 230px;
+    height: 400px;
+    box-shadow: 3px 5px 5px 4px rgb(120, 120, 120, 0.1);
+    border-top: 1px solid rgba(174, 174, 174, 0.2);
+    border-left: 1px solid rgb(174, 174, 174, 0.2);
+    border-radius: 10px;
+    transition: transform .5s;
+}
+.chair:hover {
+    transform: scale(1.1)
+}
+.chair-box h3 {
+    padding-left: 25px;
+    padding-top: 30px;
+}
+.chair-price {
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 180px;
+}
+.chair-price strong {
+    padding-right: .8rem;
+}
+.btn--small {
+    padding: .5rem 1rem;
+    font-size: 12.5px;
+}
+ul li {
+    list-style: none;
+}    
+.chair-details {
+    line-height: 25px;
+    font-size: 15px;
+    padding-left: 25px;
+}
+footer {
+    width: 840px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.fa-brands {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0 .5rem;
+    color: #368059;
+}
+.social-icons {
+    padding-bottom: 15px;
+}
+.col h4 {
+    padding: 20px 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .header-text-box {
+        width: 380px;
+    }
+    header img {
+        width: 410px;
+    }
+    header {
+        width: 900px;
+        padding-top: 45px;
+        padding-bottom: 90px;
+    }
+    .container {
+        width: 900px;
+    }
+    .ft {
+        width: 240px;
+        padding: 50px 30px;
+        padding-bottom: 80px;
+    }
+    .testimonial-section img {
+        width: 250px;
+    }
+    .testimonial-box {
+        width: 470px;
+        padding-left: 30px;
+    }
+    .testimonial-section {
+        width: 800px;
+        margin: 0 auto;
+    }
+    footer {
+        width: 900px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .header-text-box {
+        width: 380px;
+        padding-left: 10px;
+    }
+    header img {
+        width: 410px;
+    }
+    header {
+        width: 900px;
+        padding-top: 45px;
+        padding-bottom: 90px;
+    }
+    .container {
+        width: 900px;
+    }
+    .ft {
+        width: 240px;
+        padding: 50px 30px;
+        padding-bottom: 80px;
+    }
+    .testimonial-section img {
+        width: 280px;
+    }
+    .testimonial-box {
+        width: 460px;
+        padding-left: 40px;
+    }
+    .testimonial-section {
+        width: 840px;
+        margin: 0 auto;
+    }
+    footer {
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .header-text-box {
+        width: 250px;
+        padding: 30px 0;
+        margin: 0 auto;
+    }
+    .header-text-box h1 {
+        font-size: 27px;
+    }
+    header img {
+        width: 320px;
+        margin: 0 auto;
+    }
+    header {
+        width: 700px;
+    }
+    .icon {
+        font-size: 1.2rem;
+    }
+    .ft {
+        width: 240px;
+        padding: 50px 30px;
+        padding-bottom: 80px;
+    }
+    .scnd {
+        padding-top: 18px;
+    }
+    section h2 {
+        font-size: 26px;
+    }
+    .container {
+        width: 700px;
+    }
+    .testimonial-section {
+        width: 700px;
+    }
+    .testimonial-section img {
+        width: 250px;
+    }
+    .testimonial-box {
+        width: 350px;
+        padding-left: 30px;
+    }
+    .testimonial-box h2 {
+        font-size: 20px;
+    }
+    .testimonial-text {
+        font-size: 16px;
+    }
+    .chair img {
+        width: 200px;
+    }
+    .chair {
+        width: 200px;
+        height: 380px;
+    }
+    .btn--small {
+        padding: .5rem .5rem;
+        font-size: 12px;
+    }
+    .chair-details {
+        font-size: 15px;
+    }
+    .cs {
+        padding: 0 8px;
+    }
+    footer {
+        width: 700px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    body {
+        font-size: 16px;
+    }
+    .navcon {
+        width: 300px;
+        padding: 30px 0;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav h1 {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .header-text-box {
+        width: 290px;
+        padding: 30px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header-text-box p {
+        padding-top: 25px;
+        padding-bottom: 40px;
+        font-size: 16px;
+    }
+    .header-text-box h1 {
+        font-size: 28px;
+    }
+    header img {
+        width: 290px;
+        margin: 0 auto;
+    }
+    .btn--big {
+        font-size: 16px;
+    }
+    header {
+        width: 300px;
+        flex-direction: column-reverse;
+        padding-top: 35px;
+        padding-bottom: 70px;
+    }
+    a {
+        padding: .5rem 1.5rem;
+        font-size: 14px;
+    }
+    .ft {
+        width: 150px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+    .add {
+        padding-bottom: 90px;
+    }
+    .icon {
+        font-size: 1rem;
+    }
+    .features-title {
+        padding: 20px 0;
+        font-size: 17px;
+    }
+    .features-text {
+        line-height: 23px;
+    }
+    section h2 {
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .container {
+        width: 320px;
+    }
+    .testimonial-section {
+        width: 300px;
+        padding: 30px 0;
+        margin: 0 auto;
+    }
+    .testimonial-section img {
+        width: 260px;
+        margin: 0 auto;
+    }
+    .grid-3-cols {
+        flex-direction: column;
+    }
+    .testimonial-box {
+        width: 260px;
+        padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .testimonial-box h2 {
+        font-size: 20px;
+        padding-top: 1rem;
+    }
+    .testimonial-text {
+        padding: 25px 0;
+    }
+    .testimonial-author {
+        font-size: 14px;
+    }
+    .fh2 {
+        padding-top: 75px;
+        padding-bottom: 40px;
+    }
+    h3 {
+        padding-bottom: 15px;
+    }
+    .chair img {
+        width: 230px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .chair {
+        width: 230px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .chair-box h3 {
+        padding-left: 0;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .btn--small {
+        padding: .5rem 1rem;
+        font-size: 12.5px;
+    }
+    .chair-details {
+        line-height: 25px;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 0;
+    }
+    footer {
+        width: 300px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    .fa-brands {
+        font-size: 18px;
+        cursor: pointer;
+        padding: 0 .5rem;
+    }
+    .social-icons {
+        padding-bottom: 15px;
+    }
+    .col h4 {
+        padding: 20px 0;
+        font-size: 18px;
+    }
+    .cs {
+        padding-bottom: 45px;
+        padding-top: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        font-size: 16px;
+    }
+    .navcon {
+        width: 300px;
+        padding: 30px 0;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav h1 {
+        font-size: 26px;
+        padding-left: 20px;
+    }
+    .header-text-box {
+        width: 290px;
+        padding: 30px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header-text-box p {
+        padding-top: 25px;
+        padding-bottom: 40px;
+        font-size: 16px;
+    }
+    .header-text-box h1 {
+        font-size: 22px;
+    }
+    header img {
+        width: 290px;
+        margin: 0 auto;
+    }
+    .btn--big {
+        font-size: 16px;
+    }
+    header {
+        width: 300px;
+        flex-direction: column-reverse;
+        padding-top: 35px;
+        padding-bottom: 70px;
+    }
+    a {
+        padding: .5rem 1.5rem;
+        font-size: 14px;
+    }
+    .ft {
+        width: 150px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+    .add {
+        padding-bottom: 90px;
+    }
+    .icon {
+        font-size: 1rem;
+    }
+    .features-title {
+        padding: 20px 0;
+        font-size: 17px;
+    }
+    .features-text {
+        line-height: 23px;
+    }
+    section h2 {
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .container {
+        width: 320px;
+    }
+    .testimonial-section {
+        width: 300px;
+        padding: 30px 0;
+        margin: 0 auto;
+    }
+    .testimonial-section img {
+        width: 260px;
+        margin: 0 auto;
+    }
+    .grid-3-cols {
+        flex-direction: column;
+    }
+    .testimonial-box {
+        width: 260px;
+        padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .testimonial-box h2 {
+        font-size: 20px;
+        padding-top: 1rem;
+    }
+    .testimonial-text {
+        padding: 25px 0;
+    }
+    .testimonial-author {
+        font-size: 14px;
+    }
+    .fh2 {
+        padding-top: 75px;
+        padding-bottom: 40px;
+    }
+    h3 {
+        padding-bottom: 15px;
+    }
+    .chair img {
+        width: 230px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .chair {
+        width: 230px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .chair-box h3 {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .chair-details {
+        line-height: 25px;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 0;
+    }
+    footer {
+        width: 300px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    .fa-brands {
+        font-size: 18px;
+        cursor: pointer;
+        padding: 0 .5rem;
+    }
+    .social-icons {
+        padding-bottom: 15px;
+    }
+    .col h4 {
+        padding: 20px 0;
+        font-size: 18px;
+    }
+    .cs {
+        padding-bottom: 45px;
+        padding-top: 10px;
+    }
+    
+}
